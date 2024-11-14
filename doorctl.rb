@@ -17,4 +17,5 @@ class Doorctl < Formula
 
   test do
     system "#{bin}/doorctl", "--help"
+  end
 end
